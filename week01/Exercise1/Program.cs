@@ -2,8 +2,14 @@ using System;
 
 class Program
 {
-    static void Main(string[] args)
-    {
-        Console.WriteLine("Hello World! This is the Exercise1 Project.");
+    static void Main()
+    {   
+        Console.Write("What is your first name? ");
+        string firstName = Console.ReadLine() ?? string.Empty;
+        
+        Console.Write("What is your last name? ");
+        string lastName = Console.ReadLine() ?? string.Empty;
+        
+        Console.WriteLine($"Your name is {lastName}, {firstName} {lastName}.");
     }
 }
