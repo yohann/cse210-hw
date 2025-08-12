@@ -1,3 +1,8 @@
+// Extra creativity: Implemented the Wim Hof Method in the breathing activity.
+// The Wim Hof Method consists of 3 phases: 1) 30 deep breaths (inhale fully, exhale naturally),
+// 2) breath retention after exhale for as long as comfortable, 3) recovery breath (inhale and hold for 15 seconds).
+// This method became popular recently and is known for improving stress resilience, energy levels, and overall well-being.
+
 using System;
 
 class Program
